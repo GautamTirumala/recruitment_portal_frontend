@@ -49,4 +49,18 @@ background-color:black;
   margin: 1rem ;
   margin-right: 2rem;
 }
+/* sign in css */
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+/* sizing to 80% of the screen */
+.sizing{
+  max-width: 80%;
+}
+
 
