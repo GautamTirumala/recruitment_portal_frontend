@@ -44,7 +44,7 @@ function SignInForm() {
         <MDBCol col='4' md='6'>
 
 
-          <MDBInput wrapperClass='mb-1' label='Email address' id='formControlLg' type='email' size="lg"  value={email} onChange={handleChange}/>
+          <MDBInput wrapperClass='mb-4' label='Email address' id='formControlLg' type='email' size="lg"  value={email} onChange={handleChange}/>
           {error && <p style={{color: 'red',margin_bottam : 5}}>{error}</p>}
 
           <MDBInput wrapperClass='mb-4' label='Password' id='formControlLg' type='password' size="lg"/>
