@@ -35,32 +35,18 @@ background-color:black;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
-.footer{
- 
-  left:0;
-  bottom:0;
-  width:100%;
-  height:10vh;
-  text-align:center;
-}
-.welcome{
-  /* display: block; */
-  text-align: right;
-  margin: 1rem ;
-  margin-right: 2rem;
-}
-/* sign in css */
-.divider:after,
-.divider:before {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: #eee;
-}
 
-/* sizing to 80% of the screen */
-.sizing{
-  max-width: 80%;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
 }
-
-

@@ -1,7 +1,5 @@
 import React from 'react';
 import { useState } from 'react';
-import './sign_in_form.css'
-
 
 
 import {
@@ -25,7 +23,7 @@ function SignInForm() {
   }
   const handleChange = event => {
     if (!isValidEmail(event.target.value)) {
-      setError('Email is invalid! Please enter a valid Email');
+      setError('Email is invalid');
     } else {
       setError(null);
     }
@@ -35,18 +33,18 @@ function SignInForm() {
 
 
   return (
-    <MDBContainer fluid className="p-3 my-5 text-center sizing">
+    <MDBContainer fluid className="p-3 my-5 text-center">
 
       <MDBRow>
 
-        <MDBCol col='10' md='6' >
+        <MDBCol col='10' md='6'>
           <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg" class="img-fluid" alt="Phone image" />
         </MDBCol>
 
         <MDBCol col='4' md='6'>
 
 
-          <MDBInput wrapperClass='mb-4 mt-4' label='Email address' id='formControlLg' type='email' size="lg"  value={email} onChange={handleChange}/>
+          <MDBInput wrapperClass='mb-1' label='Email address' id='formControlLg' type='email' size="lg"  value={email} onChange={handleChange}/>
           {error && <p style={{color: 'red',margin_bottam : 5}}>{error}</p>}
 
           <MDBInput wrapperClass='mb-4' label='Password' id='formControlLg' type='password' size="lg"/>
