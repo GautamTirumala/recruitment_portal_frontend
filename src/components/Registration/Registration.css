@@ -1,0 +1,70 @@
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .candidate{
+    color: blue;
+  }
+  .register-body{
+    width: 50%;
+  }
+  .upload{
+  
+    margin-left: 2.5em;
+    width: auto;
+    height: 30%;
+  background-color: rgb(197, 193, 193);
+  
+  }
+  .required{
+    color: rgb(252, 43, 43);
+    font-weight: 500;
+    font-size: large;
+  }
+  .upload-box{
+    background-color: white;
+    width: auto;
+    height: auto;
+  }
+  
+  .footer{
+   
+    left:0;
+    bottom:0;
+    width:100%;
+    height:10vh;
+    text-align:center;
+  }
+  .welcome{
+    /* display: block; */
+    text-align: right;
+    margin: 1rem ;
+    margin-right: 2rem;
+  }
+  .profile-details{
+    margin-left: 15rem;
+    width: 35em;
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(197, 197, 197) ;
+    margin-bottom: 5rem;
+  }
+  .input-box{
+    margin-left: 4em;
+    margin-bottom: 0.8em;
+    margin-top: 0.3em;
+  }
+  .detail{
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color:rgb(197, 197, 197);
+  }
+  .submit-btn{
+    margin-top: 1em;
+  }
+  .heading{
+    margin-left:1.5em;
+    font-weight: 400;
+    font-size:larger
+  }

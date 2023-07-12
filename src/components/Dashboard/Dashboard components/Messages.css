@@ -1,0 +1,13 @@
+select {
+    width: 10em;
+  }
+
+  select option {
+    width: 10em;
+  }
+.folder{
+    margin-left: 1.5em;
+}
+.table-heading{
+    font-weight: 800;
+}

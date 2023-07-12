@@ -10,7 +10,7 @@ export default function Jobs() {
         </p>
       </div>
       <Header />
-      <div className="dashBoard sizing">
+      <div className="dashBoard mx-5">
         <p className="display-6 mx-4 my-3">Jobs</p>
 
         <Tables

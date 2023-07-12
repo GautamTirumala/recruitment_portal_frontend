@@ -6,21 +6,21 @@ import "./Home.css";
 export default function Home() {
   return (
     <div className="home ">
-      <div class="welcome">
+      <div class="welcome ">
         <p>
-          Welcome @userName | <a href="#">FAQ</a> | <a href="#">LogOut</a>
+          Welcome @userName | <a href="#">FAQ</a> | <a href="/">LogOut</a>
         </p>
       </div>
       <Header />
       <div className="dashBoard">
-        <p className="display-6 mx-4 my-3">Dashboard</p>
+        <p className="display-6 ms-5 my-3">Dashboard</p>
       </div>
-      <div className="container d-flex ">
+      <div className="container  d-flex ">
         <div className="jobs">
           <h3>Jobs</h3>
           <Tables
             header1="S.No"
-            header2="Title"
+            header2="Title of the message"
             header3="Company"
             header4="Applications"
           />
